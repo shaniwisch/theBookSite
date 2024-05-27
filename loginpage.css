@@ -1,0 +1,44 @@
+
+body{
+    text-align: center;
+    background-image:url("book.jpg");
+    background-size:100vw 100vh;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#par{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 5px;
+    background: #e77b8ae1 /* pink background with 30% opacity */
+}
+
+input:required {
+    background-color: pink;
+    box-shadow:  10px 10px 14px ;
+  }
+  
+input:invalid {
+    background-color: #e77b8ae1;
+    box-shadow:  10px 10px 14px ;
+}
+
+#shanj{
+    background-color:#e77b8ae1;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    border: 5;
+    border-radius:2px;
+    box-shadow:  10px 10px 14px ;
+}
