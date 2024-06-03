@@ -1,5 +1,138 @@
 body{
     text-align: center;
-    background-image:url("gg.png");
+    background-image:url("background/gg.png");
     background-size:100vw 100vh;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #a7a5a5; /* צבע רקע */
+    color: black; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e0e0e0; /* צבע רקע בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .button:active {
+    background-color: #8a8989; /* צבע רקע בעת לחיצה על הכפתור */
+  }
+
+  .green-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #006400; /* גוון ירוק כהה */
+    color: white; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .green-button:hover {
+    background-color: #08bb08; /* גוון ירוק כהה בהיר יותר בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .green-button:active {
+    background-color: #003300; /* גוון ירוק כהה בהיר יותר בעת לחיצה על הכפתור */
+  }
+
+  .red-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #8b0000; /* גוון אדום כהה */
+    color: white; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .red-button:hover {
+    background-color: #c53535; /* גוון אדום כהה בהיר יותר בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .red-button:active {
+    background-color: #660000; /* גוון אדום כהה בהיר יותר בעת לחיצה על הכפתור */
+  }
+
+  .blue-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #00008b; /* גוון כחול כהה */
+    color: white; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blue-button:hover {
+    background-color: #2f2fad; /* גוון כחול כהה בהיר יותר בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .blue-button:active {
+    background-color: #000066; /* גוון כחול כהה בהיר יותר בעת לחיצה על הכפתור */
+  }
+  
+
+  .yellow-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #fada26; /* גוון צהוב */
+    color: #333; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yellow-button:hover {
+    background-color: #f5d864; /* גוון צהוב בהיר יותר בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .yellow-button:active {
+    background-color: #c59402; /* גוון צהוב כהה יותר בעת לחיצה על הכפתור */
+  }
+
+  .pink-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc0cb; /* גוון ורוד עדין */
+    color: #333; /* צבע טקסט */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pink-button:hover {
+    background-color: #ffb6c1; /* גוון ורוד עדין בהיר יותר בעת העברת העכבר מעל הכפתור */
+  }
+  
+  .pink-button:active {
+    background-color: #ff69b4; /* גוון ורוד עדין כהה יותר בעת לחיצה על הכפתור */
+  }
