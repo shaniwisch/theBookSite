@@ -3,3 +3,16 @@ body{
     background-image:url("background/1e.png");
     background-size:100vw 100vh;
 }
+
+#book-image-ep1 {
+    width: 200px;
+    height: 300px;
+  }
+#book-image-ep2 {
+    width: 200px;
+    height: 300px;
+  }
+  #book-image-ep3 {
+    width: 200px;
+    height: 300px;
+  }
