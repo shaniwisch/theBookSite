@@ -16,7 +16,6 @@ function myFunction(){
    else{window.alert("Incorrect email or password, try other data");}*/
   
    window.alert("Hello " + userName1Input.value+ " Welcome to our book site!");
-   window.alert("");
    main().catch(console.error);
    window.location.href = "homepage.html";
    
