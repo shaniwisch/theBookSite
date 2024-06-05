@@ -7,20 +7,20 @@ body{
    font-style: normal;
 }
 
-#book-image-f1 {
-    width: 200px;
-    height: 300px;
+#f1 {
+    width: 400px;
+    height: 600px;
   }
 
-  #book-image-f2 {
-    width: 200px;
-    height: 300px;
+  #f2 {
+    width: 400px;
+    height: 600px;
   }
 
 
-  #book-image-f3 {
-    width: 200px;
-    height: 300px;
+  #f3 {
+    width: 400px;
+    height: 600px;
   }
 
 #hi1{

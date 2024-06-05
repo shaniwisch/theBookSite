@@ -7,15 +7,15 @@ body{
    font-style: normal;
 }
 
-#book-image-ep1 {
-    width: 200px;
-    height: 300px;
-  }
+#book-image-ep4 {
+  width: 400px;
+  height: 600px;
+}
 #book-image-ep2 {
-    width: 50px;
-    height: 200px;
-  }
-  #book-image-ep3 {
-    width: 200px;
-    height: 300px;
-  }
+  width: 400px;
+  height: 600px;
+}
+#book-image-ep3 {
+  width: 400px;
+  height: 600px;
+}
