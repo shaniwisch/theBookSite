@@ -26,13 +26,13 @@ function myFunction(){
 
   const nodemailer = require("nodemailer");
 
-const transporter = nodemailer.createTransport({
+ const transporter = nodemailer.createTransport({
     host: "smtp.ethereal.email",
     port: 587,
     secure: false, // Use `true` for port 465, `false` for all other ports
     auth: {
       user: "shaniwisch@gmail.com.email",
-      pass: "jn7jnAPss4f63QBp6D",
+      pass: "abhuha90",
     },
   });
   
@@ -52,3 +52,14 @@ const transporter = nodemailer.createTransport({
   }
   
 
+
+
+function homepage(){
+  window.location.href = "homepage.html";
+
+}
+
+function logOut(){
+  window.location.href = "index.html";
+
+}
