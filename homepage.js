@@ -19,7 +19,7 @@ function ro(){
 }
 
 function sf(){
-    window.location.href = "scieneFiction.html";
+    window.location.href = "scienceFiction.html";
 }
 
 function homepage(){
