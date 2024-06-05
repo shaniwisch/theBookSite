@@ -3,3 +3,23 @@ body{
     background-image:url("background/1r.png");
     background-size:100vw 100vh;
 }
+
+h1{
+   
+    color: #ffc0cd;
+}
+
+#ro1{
+    width: 500px;
+    height: 800px;
+}
+
+#ro2{
+    width: 500px;
+    height: 800px;
+}
+
+#ro3{
+    width: 500px;
+    height: 800px;
+}
