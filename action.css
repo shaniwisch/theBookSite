@@ -2,4 +2,25 @@ body{
     text-align: center;
     background-image:url("background/1a.png");
     background-size:100vw 100vh;
+    
+}
+
+h1{
+   
+    color: #8a8989;
+}
+
+#ac1{
+    width: 500px;
+    height: 800px;
+}
+
+#ac2{
+    width: 500px;
+    height: 800px;
+}
+
+#ac3{
+    width: 500px;
+    height: 800px;
 }
