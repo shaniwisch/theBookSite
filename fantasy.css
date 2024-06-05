@@ -2,6 +2,9 @@ body{
     text-align: center;
     background-image:url("background/1f.png");
     background-size:100vw 100vh;
+    font-family: "Allison", cursive;
+   font-weight: 400;
+   font-style: normal;
 }
 
 #book-image-f1 {

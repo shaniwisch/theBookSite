@@ -2,6 +2,9 @@ body{
     text-align: center;
     background-image:url("background/1e.png");
     background-size:100vw 100vh;
+    font-family: "Aboreto", system-ui;
+   font-weight: 400;
+   font-style: normal;
 }
 
 #book-image-ep1 {
@@ -9,8 +12,8 @@ body{
     height: 300px;
   }
 #book-image-ep2 {
-    width: 200px;
-    height: 300px;
+    width: 50px;
+    height: 200px;
   }
   #book-image-ep3 {
     width: 200px;
