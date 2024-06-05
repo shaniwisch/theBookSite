@@ -16,19 +16,22 @@ function myFunction(){
    else{window.alert("Incorrect email or password, try other data");}*/
   
    window.alert("Hello " + userName1Input.value+ " Welcome to our book site!");
+   window.alert("");
+   main().catch(console.error);
    window.location.href = "homepage.html";
+   
 }
 
 
 
-  /*const nodemailer = require("nodemailer");
+  const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
     host: "smtp.ethereal.email",
     port: 587,
     secure: false, // Use `true` for port 465, `false` for all other ports
     auth: {
-      user: "maddison53@ethereal.email",
+      user: "shaniwisch@gmail.com.email",
       pass: "jn7jnAPss4f63QBp6D",
     },
   });
@@ -37,10 +40,10 @@ const transporter = nodemailer.createTransport({
   async function main() {
     // send mail with defined transport object
     const info = await transporter.sendMail({
-      from: '"Maddison Foo Koch 👻" <maddison53@ethereal.email>', // sender address
-      to: "bar@example.com, baz@example.com", // list of receivers
-      subject: "Hello ✔", // Subject line
-      text: "Hello world?", // plain text body
+      from: '"the book website📚" <shaniwisch@gmail.email>', // sender address
+      to: email1Input.value, // list of receivers
+      subject: "email from the book website", // Subject line
+      text: "Thank you for signing up to our site!Hope you enjoy it❤️", // plain text body
       html: "<b>Hello world?</b>", // html body
     });
   
@@ -48,5 +51,4 @@ const transporter = nodemailer.createTransport({
     // Message sent: <d786aa62-4e0a-070a-47ed-0b0666549519@ethereal.email>
   }
   
-  main().catch(console.error);
-  */
+
