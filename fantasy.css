@@ -3,3 +3,27 @@ body{
     background-image:url("background/1f.png");
     background-size:100vw 100vh;
 }
+
+#book-image-f1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  #book-image-f2 {
+    width: 200px;
+    height: 300px;
+  }
+
+
+  #book-image-f3 {
+    width: 200px;
+    height: 300px;
+  }
+
+#hi1{
+text-align: left;
+}
+
+#hi2{
+text-align: right;
+}
