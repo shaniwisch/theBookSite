@@ -63,3 +63,8 @@ input:invalid {
     background-color: #ddd;
     color: black;
 }
+#the{
+    float: left;
+    -webkit-text-fill-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
